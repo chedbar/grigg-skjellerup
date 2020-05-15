@@ -1,0 +1,24 @@
+{
+  "name": "grigg-skjellerup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "start": "http-server ./site",
+    "deploy": "surge ./site griggskj.surge.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chedbar/grigg-skjellerup.git"
+  },
+  "author": "Kai Bouwman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chedbar/grigg-skjellerup/issues"
+  },
+  "homepage": "https://github.com/chedbar/grigg-skjellerup#readme",
+  "dependencies": {
+    "http-server": "^0.12.3",
+    "surge": "^0.21.3"
+  }
+}
